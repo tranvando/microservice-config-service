@@ -1,5 +1,9 @@
 
 # port
-server.port=8801
+server:
+  port: 8801
 # eureka server url
-eureka.client.service-url.default-zone=http://localhost:8761/eureka
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
