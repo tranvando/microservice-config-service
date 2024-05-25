@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: service01
+  config:
+    import: "ptional:configserver:http://localhost:9297"
